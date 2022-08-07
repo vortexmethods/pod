@@ -1,5 +1,5 @@
-POD: algorithm of Proper orthogonal decomposition for 2D data storing and analyzing 
-====================================================
+POD: algorithm of Proper Orthogonal Decomposition for 2D data storing and analyzing 
+===================================================================================
 
 <p align="center"><img src="https://www.mdpi.com/entropy/entropy-23-00118/article_deploy/html/images/entropy-23-00118-g019-550.jpg"></p>
 
@@ -25,6 +25,7 @@ Copyright (C) 2020-2022 Ilia Marchevsky, Soldatova Irina, Sokol Kseniia
 
 * ***POD*** - [метод ортогональных разложений, POD](https://en.wikipedia.org/wiki/Proper_orthogonal_decomposition), впервые был описан  [J.L. Lumley в 1967 г.](https://scirp.org/reference/ReferencesPapers.aspx?ReferenceID=2169725), как попытка разложить случайное векторное поле турбулентного движения жидкости как набор детерминированных функций, каждая из которых улавливает некоторую часть общей колебательной кинетической энергии в потоке.
 
+* [статья](https://www.mdpi.com/1099-4300/23/1/118/htm) с описанием алгоритма POD. 
 
 СТРУКТУРА РЕПОЗИТОРИЯ
 ---------------------
