@@ -1,7 +1,7 @@
-POD: algorithm of Proper Orthogonal Decomposition for 2D data storing and analyzing 
-===================================================================================
+POD: algorithm of Proper orthogonal decomposition for 2D data storing and analyzing 
+====================================================
 
-<p align="center"><img src="https://www.mdpi.com/entropy/entropy-23-00118/article_deploy/html/images/entropy-23-00118-g019-550.jpg"></p>
+<p align="center"><img src="https://www.mdpi.com/entropy/entropy-23-00118/article_deploy/html/images/entropy-23-00118-g014.png"></p>
 
 ![Repo Size](https://img.shields.io/github/repo-size/vortexmethods/fastm.svg)
 ![License](https://img.shields.io/github/license/vortexmethods/fastm.svg)
@@ -25,27 +25,26 @@ Copyright (C) 2020-2022 Ilia Marchevsky, Soldatova Irina, Sokol Kseniia
 
 * ***POD*** - [метод ортогональных разложений, POD](https://en.wikipedia.org/wiki/Proper_orthogonal_decomposition), впервые был описан  [J.L. Lumley в 1967 г.](https://scirp.org/reference/ReferencesPapers.aspx?ReferenceID=2169725), как попытка разложить случайное векторное поле турбулентного движения жидкости как набор детерминированных функций, каждая из которых улавливает некоторую часть общей колебательной кинетической энергии в потоке.
 
-* [статья](https://www.mdpi.com/1099-4300/23/1/118/htm) с описанием алгоритма POD. 
 
 СТРУКТУРА РЕПОЗИТОРИЯ
 ---------------------
 
-* *POD* - исходные коды метода ортогональных разложений
+* *include/Eigen* - общие библиотеки (eigen и вспомогательные типы данных)
 
-* *include* - общие библиотеки (eigen и вспомогательные типы данных)
+* *run* - папка, в которой хранится файл "info.txt" и вспомогательный файл для обработки собственных чисел
 
-* *run* - папка, в которой хранится файл "info.txt"
+* *src* - исходные коды метода POD
 
-	 
+
 УСТАНОВКА
 ---------
 
 Для запуска программы *POD* на комьютере необходимо загрузить исходные коды программы.
 Если на Вашем компьютере установлен "Git", достаточно исполнить команду 
 
-      git clone https://github.com/vortexmethods/fastm.git POD
+      git clone https://github.com/vortexmethods/pod POD
 
-по результатам работы которой в текущей папке будет создана подпапка fastm и в нее будут загружены все файлы из репозитория.	  
+по результатам работы которой в текущей папке будет создана подпапка POD и в нее будут загружены все файлы из репозитория.	  
 	  
 Подготовка к компияции исходных кодов предполагает создание папок "build" в каталогах *POD* с загруженными исходными кодами, переход в эти папки и выполнение команды 
 
@@ -99,7 +98,7 @@ Copyright (C) 2020-2022 Ilia Marchevsky, Soldatova Irina, Sokol Kseniia
 ВОПРОСЫ, ПРЕДЛОЖЕНИЯ И ЗАМЕЧАНИЯ
 --------------------------------
 
-На [странице Issues](https://github.com/vortexmethods/fastm/issues) мы будем рады ответить на Ваши вопросы, с благодарностью выслушаем предложения и замечания по коду.
+На [странице Issues](https://github.com/vortexmethods/pod/issues) мы будем рады ответить на Ваши вопросы, с благодарностью выслушаем предложения и замечания по коду.
 
 Мы открыты для любого конструктивного взаимодействия!
 
