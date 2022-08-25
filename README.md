@@ -124,7 +124,7 @@ Copyright (C) 2020-2022 Ilia Marchevsky, Soldatova Irina, Sokol Kseniia
 </td>
 
 <td align="center" valign="center" width="20%">
-<img src="https://github.com/vortexmethods/VM2D/blob/master/docs/_static/authors/Kuzmina.jpg" alt="Сокол К.С."/>
+<img src="https://github.com/vortexmethods/VM2D/blob/master/docs/_static/authors/Sokol.jpg" alt="Сокол К.С."/>
 <br />
 Сокол Ксения Сергеевна
 </td>
